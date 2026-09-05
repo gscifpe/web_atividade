@@ -11,3 +11,8 @@ Passaporte.belongsTo(Pessoa, {
     foreignKey: 'pessoaId',
     as: 'pessoa'
 })
+
+module.exports = {
+    Pessoa,
+    Passaporte
+};
